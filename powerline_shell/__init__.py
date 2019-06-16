@@ -56,24 +56,66 @@ def get_valid_cwd():
 
 class Powerline(object):
     symbols = {
-        'compatible': {
-            'lock': 'RO',
-            'network': 'SSH',
-            'separator': u'\u25B6',
-            'separator_thin': u'\u276F'
-        },
-        'patched': {
-            'lock': u'\uE0A2',
-            'network': 'SSH',
-            'separator': u'\uE0B0',
-            'separator_thin': u'\uE0B1'
-        },
         'flat': {
             'lock': u'\uE0A2',
             'network': 'SSH',
             'separator': '',
             'separator_thin': ''
         },
+        'compatible': {
+            'lock': 'RO',
+            'network': 'SSH',
+            'separator': u'\u25B6',
+            'separator_thin': u'\u276F'
+        },
+        'patched1': {
+            'lock': u'\uE0A2',
+            'network': 'SSH',
+            'separator': u'\uE0B0',
+            'separator_thin': u'\uE0B1'
+        },
+        'patched2': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0B0',
+            'separator_thin': u'\uE0B1'
+        },
+        'angly1': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0B8',
+            'separator_thin': u'\uE0B9'
+        },
+        'angly2': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0BC',
+            'separator_thin': u'\uE0BD'
+        },
+        'curvy': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0B4',
+            'separator_thin': u'\uE0B5'
+        },
+        'flamey': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0C0',
+            'separator_thin': u'\uE0C1'
+        },
+        'blocky': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0CE',
+            'separator_thin': u'\uE0CF'
+        },
+        'pixey': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0C6',
+            'separator_thin': u'\uE0C6'
+        }
     }
 
     color_templates = {

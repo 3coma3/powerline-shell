@@ -7,7 +7,7 @@ class Segment(BasicSegment):
     def add_to_powerline(self):
         powerline = self.powerline
         if powerline.args.shell == "bash":
-            user_prompt = r" \u "
+            user_prompt = r"\u"
         elif powerline.args.shell == "zsh":
             user_prompt = " %n "
         else:

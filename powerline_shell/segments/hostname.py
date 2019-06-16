@@ -15,7 +15,7 @@ class Segment(BasicSegment):
             powerline.append(host_prompt, FG, BG)
         else:
             if powerline.args.shell == "bash":
-                host_prompt = r" \h "
+                host_prompt = r"\h"
             elif powerline.args.shell == "zsh":
                 host_prompt = " %m "
             else:

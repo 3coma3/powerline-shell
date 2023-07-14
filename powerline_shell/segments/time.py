@@ -8,7 +8,7 @@ class Segment(BasicSegment):
         powerline = self.powerline
         format = powerline.segment_conf('time', 'format')
         if format:
-            time_ = ' %s ' % time.strftime(format)
+            time_ = '%s' % time.strftime(format)
         elif powerline.args.shell == 'bash':
             time_ = ' \\t '
         elif powerline.args.shell == 'zsh':
